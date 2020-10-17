@@ -9,7 +9,7 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
         <style type="text/css">
             .jumbotron {
-                background-image: url('images/Capa.png');
+                background-image: url('../images/Capa.png');
                 background-color: gray;
                 color: White;
                 font-family: 'Palatino Linotype','Book Antiqua',Palatino,serif;
@@ -19,7 +19,9 @@
                 background-position: center;
             }
             h2 {
-                font-family: Century Gothic, sans-serif;
+                font-family: Century Gothic, serif;
+                font-size: 45px;
+                font-weight: bold;
             }
             .btn-success{
                 background: gray;
@@ -32,8 +34,25 @@
             .About {
                 text-align: center;
             }
+            p {
+                text-align: justify;
+                text-justify: inter-word;
+                font-family: Century Gothic Medium;
+                font-size: 16px;
+            }
+            td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+            td {
+                background-color: #dddddd;
+            }
+            tr:nth-child(even) {
+            background-color: #dddddd;
+            }
             body {
-                background-image:url(images/background.jpg);
+                background-image:url('../images/background.jpg');
             }
         </style>
 </head>
@@ -85,29 +104,89 @@
         <p>A Pathfinder Campaign Setting</p>
     </div>
     <div class="About">
-        <h2>Religion</h2>
-        <p>The human kingdoms are vast and diverse, and with each diverse culture a different set of beliefs exists. In this chapter, you will have the chance to get to know more about each culture's pantheons. From major religions to forbidden cults.</p>
+        <h2>Pantheon</h2>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
+        <p></p>
         
-        <p><a href="religion/Krin.html" class="btn btn-success">Krin &raquo;</a></p>
-        <p><a href="religion/quepatec.html" class="btn btn-success">Quepatec &raquo;</a></p>
-        <p><a href="religion/tvor.html" class="btn btn-success">Tvor &raquo;</a></p>
-        <p><a href="religion/ulnuc.html" class="btn btn-success">Ulnuc &raquo;</a></p>
-        <p><a href="religion/minzao.html" class="btn btn-success">Minzao &raquo;</a></p>
-        <p><a href="religion/laotse.html" class="btn btn-success">Lao-Tse &raquo;</a></p>
-        <p><a href="religion/meynar.html" class="btn btn-success">Meynari &raquo;</a></p>
-        <p><a href="religion/mukulu.html" class="btn btn-success">Mukulu &raquo;</a></p>
-        <p><a href="religion/beverita.html" class="btn btn-success">Beverita &raquo;</a></p>
-        <p><a href="religion/lampa.html" class="btn btn-success">Lampa &raquo;</a></p>
-        <p><a href="religion/cretian.html" class="btn btn-success">Cretian &raquo;</a></p>
-        <p><a href="religion/rubran.html" class="btn btn-success">Rubran &raquo;</a></p>
-        <p><a href="religion/kaast.html" class="btn btn-success">Klaar &raquo;</a></p>
-        <p><a href="religion/barcago.html" class="btn btn-success">Makhanism &raquo;</a></p>
-        <p><a href="religion/gernian.html" class="btn btn-success">Gernian Totemism &raquo;</a></p>
-        <p><a href="religion/zistranism.html" class="btn btn-success">Zistranism &raquo;</a></p>
-        <p><a href="religion/asseri.html" class="btn btn-success">Asseri Drakism &raquo;</a></p>
-        <p><a href="religion/kaomi.html" class="btn btn-success">Kaomi &raquo;</a></p>
-        <p><a href="religion/borigua.html" class="btn btn-success">Boriguan Elementalism &raquo;</a></p>
-        <p><a href="religion/primordial.html" class="btn btn-success">Primordial Gods &raquo;</a></p>
+        <h3>Quepatec Pantheon</h3>
+        <table align='center'>
+            <tr>
+                <th>Name</th>
+                <th>Alignment</th>
+                <th>Domains</th>
+                <th>Mysteries</th>
+                <th>Favoured Weapon</th>
+            </tr>
+            <tr>
+                <td>Kalni</td>
+                <td>Neutral Good</td>
+                <td>Trade, Healing, Family</td>
+                <td>Life, Wood</td>
+                <td>Chakram</td>
+            </tr>
+            <tr>
+                <td>Zhiva</td>
+                <td>Chaotic Good</td>
+                <td>Good, Repose, Thought</td>
+                <td>Heavens, Nature</td>
+                <td>Trident</td>
+            </tr>
+            <tr>
+                <td>Gashena</td>
+                <td>Lawful Good</td>
+                <td>Knowledge, Travel, Languages</td>
+                <td>Lore, Ancestor</td>
+                <td>Ankus</td>
+            </tr>
+            <tr>
+                <td>Brahmi</td>
+                <td>True Neutral</td>
+                <td>Stars, Artifice, Imagination</td>
+                <td>Outer Rifts, Time</td>
+                <td>Unarmed Strike</td>
+            </tr>
+            <tr>
+                <td>Indira</td>
+                <td>Lawful Neutral</td>
+                <td>Air, Storms, Water</td>
+                <td>Wind, Water</td>
+                <td>Meteor Hammer</td>
+            </tr>
+            <tr>
+                <td>Ranma</td>
+                <td>Chaotic Neutral</td>
+                <td>Freedom, Nobility, Resolve</td>
+                <td>Flame, Winter</td>
+                <td>Shortbow</td>
+            </tr>
+            <tr>
+                <td>Yanma</td>
+                <td>Lawful Evil</td>
+                <td>Death, Darkness, Inevitable</td>
+                <td>Metal, Bones</td>
+                <td>Heavy Mace</td>
+            </tr>
+            <tr>
+                <td>Ravanma</td>
+                <td>Chaotic Evil</td>
+                <td>Sun, Corruption, Madness</td>
+                <td>Solar, Spellscar</td>
+                <td>Shotel</td>
+            </tr>
+            <tr>
+                <td>Virabhadrah</td>
+                <td>Neutral Evil</td>
+                <td>War, Ferocity, Destruction</td>
+                <td>Battle, Apocalypse</td>
+                <td>Double-Chained Kama</td>
+            </tr>
+        </table>        
+        
     </div>
     <div class="row">
         <div class="col-sm-12">
